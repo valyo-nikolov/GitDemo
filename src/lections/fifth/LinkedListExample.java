@@ -20,8 +20,10 @@ public class LinkedListExample {
         cars.addFirst("BMW"); //adding on first position
         System.out.println(cars);
         cars.addLast("Ford"); //adding on last position
+        System.out.println("Before: " + cars);
         cars.add(2, "Mazda"); //adding on 3-rd position
-        System.out.println(cars);
+//        cars.add("Mazda");
+        System.out.println("Print: " + cars);
         cars.remove(); //removes first element
         cars.removeFirst(); //removes first element
         cars.removeLast(); //removes last element

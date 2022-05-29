@@ -7,6 +7,7 @@ public class ArrayExampleTwo {
         cars[0] = "Volvo";
         cars[1] = "Bmw";
         cars[2] = "Mercedes";
+//        cars[3] = "Mazda";
 
         System.out.println(cars[1]);
 
@@ -17,10 +18,16 @@ public class ArrayExampleTwo {
             System.out.println(cars[i]);
         }
 
+//        cars = {"Volvo", "BMW", "Ford", "Mazda"};
         cars = new String[]{"Volvo", "BMW", "Ford", "Mazda"};
 
-        for (String i : cars) {
-            System.out.println(i);
+        double[] arr = new double[2];
+        arr[0] = 0.5;
+        arr[1] = 22.545;
+
+
+        for (double elem : arr) {
+            System.out.println(elem);
         }
     }
 }

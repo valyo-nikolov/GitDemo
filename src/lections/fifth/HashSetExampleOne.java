@@ -16,6 +16,9 @@ public class HashSetExampleOne {
         set.add("Two");
         set.add("Two");
         set.add("Two");
+        set.add(null);
+        set.add(null);
+
         Iterator<String> i = set.iterator();
         while (i.hasNext()) {
             System.out.println(i.next());

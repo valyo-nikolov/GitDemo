@@ -4,6 +4,12 @@ public class MultiDimensionalArray {
 
     public static void main(String[] args) {
         int[][] arr = new int[3][3];//3 row and 3 column
+
+//        int[][] arr2 = {
+//                {1, 2, 3}, //i = 0
+//                {4, 5, 6}, // i = 1
+//                {7, 8, 9}  // i = 2
+//        };
         arr[0][0] = 1;
         arr[0][1] = 2;
         arr[0][2] = 3;
@@ -16,8 +22,9 @@ public class MultiDimensionalArray {
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.println(arr[i][j]);
+                System.out.format("%d%d ", i , j);
             }
+            System.out.println();
         }
     }
 }

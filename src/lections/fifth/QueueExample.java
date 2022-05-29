@@ -17,7 +17,8 @@ public class QueueExample {
         System.out.println(pq);
         pq.remove();
         System.out.println(pq);
-
+        pq.remove("TestD");
+        System.out.println(pq);
         for (String i : pq) {
             System.out.println(i);
         }

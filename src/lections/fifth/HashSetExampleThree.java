@@ -10,6 +10,9 @@ public class HashSetExampleThree {
         set.add("Ivan");
         set.add("Georgi");
         set.add("Stoyan");
+//        set.add(null);
+//        set.add(null);
+//        set.add(null);
         System.out.println("An initial list of elements: " + set);
         //Removing specific element from HashSet
         set.remove("Ivan");

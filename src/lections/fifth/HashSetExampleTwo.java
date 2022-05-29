@@ -7,7 +7,7 @@ public class HashSetExampleTwo {
     public static void main(String[] args) {
         HashSet<String> set = new HashSet();
         set.add("One");
-        set.add("Two");
+        set.add("Twoqq");
         set.add("Three");
         set.add("Four");
         set.add("Five");

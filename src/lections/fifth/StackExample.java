@@ -17,5 +17,18 @@ public class StackExample {
         elements.pop();
         elements.push("Test5");
         System.out.println("Stack => " + elements);
+
+        Stack<String> otherElements = new Stack<>();
+        otherElements.push("AAA");
+        otherElements.push("BBb");
+        otherElements.push("CCCC");
+
+        elements.addAll(otherElements);
+
+        System.out.println("Stack => " + elements);
+
+        elements.removeAll(otherElements);
+
+        System.out.println("Stack => " + elements);
     }
 }

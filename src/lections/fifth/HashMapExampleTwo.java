@@ -8,7 +8,7 @@ public class HashMapExampleTwo {
         //Creating HashMap
         HashMap<Integer, String> map = new HashMap<>();
         //Put elements in Map
-        map.put(1, "Mango");
+        map.put(7, "Mango");
         map.put(2, "Apple");
         map.put(3, "Banana");
         map.put(4, "Grapes");
